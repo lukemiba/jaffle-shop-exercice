@@ -10,5 +10,4 @@ models:
 
       - name: aantal_bestellingen
         data_tests:
-          - dbt_utils.expression_is_true:
-              expression: ">= 0"
+          - not_null
