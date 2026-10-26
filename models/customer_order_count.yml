@@ -7,3 +7,8 @@ models:
         data_tests:
           - unique
           - not_null
+
+      - name: aantal_bestellingen
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
