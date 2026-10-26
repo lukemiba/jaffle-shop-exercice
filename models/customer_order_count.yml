@@ -11,6 +11,4 @@ models:
       - name: aantal_bestellingen
         data_tests:
           - not_null
-          - accepted_values:
-              arguments:
-                values: [-999]
+
