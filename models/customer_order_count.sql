@@ -1,3 +1,5 @@
+-- Versie 2: oefenen met GitHub versiebeheer
+
 {{ config(materialized='table') }}
 
 SELECT
