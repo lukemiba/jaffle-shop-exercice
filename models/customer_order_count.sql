@@ -1,4 +1,4 @@
--- Versie 2: oefenen met GitHub versiebeheer
+-- Experiment: wijziging in mijn eigen branch
 
 {{ config(materialized='table') }}
 
